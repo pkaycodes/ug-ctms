@@ -141,6 +141,6 @@ ug-ctms/
 └── frontend/            # React + Vite scaffold (not yet connected)
 ```
 
-## Licence
+## License
 
 MIT — see [LICENSE](LICENSE).
