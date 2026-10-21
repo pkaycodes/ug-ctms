@@ -8,7 +8,8 @@ Built with **Node.js, Express and PostgreSQL**, using JWT sessions and bcrypt
 password hashes.
 
 This is the API half of a rewrite of my final-year thesis,
-[**ctms**](https://github.com/pkaycodes/ctms). The thesis is a server-rendered
+[**CTMS**](https://github.com/pkaycodes/college-tutorial-management-system-thesis).
+The thesis is a server-rendered
 Django application; this version splits the same domain model into a JSON API
 and a React client.
 
@@ -62,6 +63,9 @@ All routes except login expect `Authorization: Bearer <token>`.
 Requires Node.js 18+ and PostgreSQL 13+.
 
 ```bash
+git clone https://github.com/pkaycodes/university-tutorial-claims-api.git
+cd university-tutorial-claims-api
+
 # 1. Database
 createdb ctms_ug
 psql -d ctms_ug -f backend/schema.sql
